@@ -98,19 +98,210 @@ textarea {
    ========================================================================== */
 
 
+/* -------- Base Header – Footer styles -------- */
+
+header,
+footer, {
+
+}
 
 
+/* --- Header styles --- */
+
+header {
+
+}
+header .content-wrapper {
+
+}
+
+header figure {
+
+}
+
+.header-divider {
+
+}
+
+header nav {
+
+}
+
+nav ul {
+
+}
+
+nav ul li {
+
+}
 
 
+/* --- Footer styles --- */
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+.contact-text {
+
+}
+
+.social {
+
+}
+
+.social-icons {
+
+}
+
+/* -------- Mobile styles - Homepage -------- */
 
 
+.hero-area {
+
+}
+
+aside {
+
+}
+
+.form-description {
+
+}
+
+.newsletter-header {
+
+}
+
+.newsletter-text {
+
+}
+
+.newsletter-form {
+
+}
+
+/* --- FEATURES --- */
+
+.features {
+
+}
+
+.features-items {
+
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+/* --- REVIEWS --- */
+
+.reviews {
+
+}
+
+.reviews .content-wrapper {
+
+}
+
+.review-content {
+
+}
+
+.body-text {
+
+}
+
+.copyright {
+
+}
+
+.copyright-text {
+
+}
 
 
+/* -------- Mobile styles - About -------- */
+
+.mission {
+
+}
+
+.mission .content-wrapper {
+
+}
+
+.mission-content {
+
+}
+
+.map{
+
+}
+
+.map figure {
+
+}
+
+.contact-section {
+
+}
+
+.contact-section .content-wrapper {
+
+}
+
+.contact-content {
+
+}
+
+.contact-part {
+
+}
 
 
+/* -------- Mobile styles - Faq -------- */
 
+.faq {
 
+}
 
+.faq .content-wrapper {
+
+}
+
+.faq-content {
+
+}
+
+.faq-items {
+
+}
+
+.faq-header {
+
+}
+
+.faq-text {
+
+}
 
 
 /* ==========================================================================
