@@ -102,7 +102,10 @@ textarea {
 
 header,
 footer, {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 
@@ -112,6 +115,10 @@ header {
 
 }
 header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -124,11 +131,16 @@ header figure {
 }
 
 header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
 nav ul {
-
+  display: flex;
+  justify-content: space-around;
 }
 
 nav ul li {
@@ -159,22 +171,31 @@ footer .content-wrapper {
 }
 
 .social {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-icons {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* -------- Mobile styles - Homepage -------- */
 
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 aside {
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .form-description {
@@ -196,11 +217,16 @@ aside {
 /* --- FEATURES --- */
 
 .features {
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .features-items {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .fontawesome-icon {
@@ -208,13 +234,16 @@ aside {
 }
 
 .features-item-description {
-
+  display: flex;
+  align-items: center;
 }
 
 /* --- REVIEWS --- */
 
 .reviews {
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .reviews .content-wrapper {
@@ -241,7 +270,9 @@ aside {
 /* -------- Mobile styles - About -------- */
 
 .mission {
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .mission .content-wrapper {
@@ -261,7 +292,10 @@ aside {
 }
 
 .contact-section {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .contact-section .content-wrapper {
@@ -280,15 +314,23 @@ aside {
 /* -------- Mobile styles - Faq -------- */
 
 .faq {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .faq-content {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .faq-items {
