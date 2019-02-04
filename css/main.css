@@ -108,17 +108,18 @@ footer, {
   flex-flow: row wrap;
 }
 
-
 /* --- Header styles --- */
 
 header {
-
+  padding: 15px 0;
 }
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 
 }
 
@@ -127,7 +128,7 @@ header figure {
 }
 
 .header-divider {
-
+  width: 100%;
 }
 
 header nav {
@@ -135,31 +136,46 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  width: 60%;
 }
 
 nav ul {
   display: flex;
   justify-content: space-around;
+  width: 60%;
 }
 
 nav ul li {
-
+  list-style: none;
 }
 
 
 /* --- Footer styles --- */
 
 footer {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 footer .content-wrapper {
-
+  width: 55%;
+  margin: 50px 0;
 }
 
 .footer-content {
+}
 
+footer adress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
 }
 
 .contact {
@@ -190,16 +206,20 @@ footer .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 80%;
+  margin: 0 20px;
 }
 
 aside {
   display: flex;
   flex-wrap: wrap;
   flex-flow: row wrap;
+  width: 100%;
+  margin: 30px 20px;
 }
 
 .form-description {
-
+  width: 80%;
 }
 
 .newsletter-header {
@@ -211,15 +231,27 @@ aside {
 }
 
 .newsletter-form {
+  width: 80%;
+}
 
+.newsletter-form input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: row wrap;
 }
 
 /* --- FEATURES --- */
 
 .features {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.features h2 {
+  width: 85%;
 }
 
 .features-items {
@@ -227,6 +259,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 55%;
 }
 
 .fontawesome-icon {
@@ -242,12 +275,13 @@ aside {
 
 .reviews {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   flex-flow: row wrap;
 }
 
 .reviews .content-wrapper {
-
+  width: 85%;
 }
 
 .review-content {
