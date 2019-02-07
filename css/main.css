@@ -100,8 +100,7 @@ textarea {
 
 /* -------- Base Header – Footer styles -------- */
 
-header,
-footer, {
+header, footer, {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,12 +153,18 @@ nav ul li {
 /* --- Footer styles --- */
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 footer p {
@@ -172,8 +177,6 @@ footer p {
 footer adress {
 
 }
-
-
 
 footer .contact {
   margin-bottom: 50px;
@@ -365,10 +368,6 @@ aside {
   margin: 0;
 }
 
-.contact-part {
-
-}
-
 
 /* -------- Mobile styles - Faq -------- */
 
@@ -380,11 +379,15 @@ aside {
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
-  margin: 50px 0 0 0;
+}
+
+.faq-content {
+margin-bottom: 40px;
 }
 
 .faq h3 {
@@ -529,12 +532,12 @@ header nav ul {
 aside .content-wrapper {
   margin: 50px 0;
   display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 aside .content-wrapper .form-description,
-    aside .content-wrapper .form {
+aside .content-wrapper .newsletter-form {
         width: 35%;
         margin: 0;
     }
@@ -556,74 +559,71 @@ aside .content-wrapper .form-description,
 
 /* -------- Tablet styles - Reviews -------- */
 
-.reviews article {
+.reviews .content-wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-.reviews article div {
-  width: 49%;
+.reviews article {
+  width: 48%;
 }
-
 
 /* -------- Tablet styles - Footer -------- */
 
 footer .content-wrapper {
-        width: 65%;
-        margin: 100px 0;
-    }
+  width: 65%;
+  margin: 100px 0;
+}
 
-    .footer-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  }
 
-    footer .contact {
-        margin-bottom: 0;
-    }
+footer .contact {
+  margin-bottom: 0;
+}
 
-    footer .copyright {
-        width: 100%;
-    }
+footer .copyright {
+  width: 100%;
+}
 
 /* -------- Tablet styles - FAQ-page -------- */
 
-  .faq .content-wrapper {
-        justify-content: space-between;
-    }
+.faq .content-wrapper {
+  justify-content: space-between;
+}
 
-  .faq-content {
-      flex-basis: 40%;
-    }
+.faq-content {
+  flex-basis: 40%;
+}
 
-  .faq h1 {
-    width: 100%;
-    }
+.faq h2 {
+  width: 100%;
+}
 
 /* -------- Tablet styles - ABOUT-page -------- */
 
 .mission-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .mission-content p {
-        width: 40%;
-    }
-
-    .contact-section, .content-wrapper h3 {
-        width: 80%;
-    }
-
-    .contact-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.mission-content p {
+  width: 40%;
+}
 
+.contact-section .content-wrapper h3 {
+  width: 80%;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
 
    }
 
