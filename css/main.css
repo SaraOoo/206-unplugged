@@ -556,7 +556,6 @@ aside .content-wrapper .newsletter-form {
   width: 50%;
 }
 
-
 /* -------- Tablet styles - Reviews -------- */
 
 .reviews .content-wrapper {
@@ -622,7 +621,6 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-
 }
 
    }
@@ -630,62 +628,60 @@ footer .copyright {
    @media screen and (min-width: 1200px) {
    /*Desktop styles here*/
 
-   .content-wrapper {
-     max-width: 960px;
-   }
+.content-wrapper {
+  max-width: 960px;
+}
 
-   /* -------- Desktop styles - Homepage -------- */
-      .hero-area h2 {
-          width: 60%;
-      }
-
-
-    /* -------- Desktop styles - Aside -------- */
-      aside .content-wrapper {
-        justify-content: space-around;
-      }
-
-      aside .content-wrapper .form-description,
-      aside .content-wrapper .form {
-        width: 30%;
-      }
+/* -------- Desktop styles - Homepage -------- */
+.hero-area h2 {
+  width: 60%;
+}
 
 
-    /* -------- Desktop styles - Feature -------- */
-    .features h2 {
-        width: 70%;
-    }
+/* -------- Desktop styles - Aside -------- */
+aside .content-wrapper {
+  justify-content: space-around;
+}
 
-    .features article {
-        flex-basis: 33%;
-    }
+aside .content-wrapper .form-description,
+aside .content-wrapper .newsletter-form {
+  width: 30%;
+}
 
+/* -------- Desktop styles - Feature -------- */
+.features h2 {
+  width: 70%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
 
 /* -------- Desktop styles - Reviews -------- */
-    .reviews article div {
-      width: 40%;
-        }
+.reviews article div {
+  width: 40%;
+}
 
 
 /* -------- Desktop styles - ABOUT-page -------- */
-    .mission h2,
-    .contact-section .content-wrapper h3 {
-    width: 100%;
-    }
+.mission h2,
+.contact-section .content-wrapper h3 {
+  width: 100%;
+}
 
-    .contact-section .content-wrapper h4 {
-        margin-bottom: 45px;
-    }
+.contact-section .content-wrapper h4 {
+  margin-bottom: 45px;
+}
 
 
 /* -------- Desktop styles - FAQ-page -------- */
-  .faq h1 {
-    width: 100%;
-  }
+.faq h1 {
+  width: 100%;
+}
 
-  .faq-content {
-    flex-basis: 30%;
-  }
+.faq-content {
+  flex-basis: 40%;
+}
 
 }
 
