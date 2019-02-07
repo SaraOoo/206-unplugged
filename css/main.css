@@ -121,11 +121,15 @@ textarea {
    h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 2.25em;
+     color: #e2e3ed;
+     font-weight: 400;
     }
 
    h3,
    h4 {
      font-family: 'Poppins', sans-serif;
+     color: #e2e3ed;
+     font-weight: 400;
    }
 
    h3 {
@@ -139,6 +143,8 @@ textarea {
    p {
      font-size: 0.8em;
      line-height: 1.1em;
+     color: #e1e2ea;
+     text-align: left;
    }
 
    img {
@@ -152,6 +158,7 @@ textarea {
    address {
      font-family: 'Open sans', sans-serif;
      font-size: 0.8em;
+     color: #ffffff;
    }
 
    .content-wrapper {
@@ -162,17 +169,19 @@ textarea {
 
 /* -------- Base Header – Footer styles -------- */
 
-header, footer, {
+header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #202322;
 }
 
 /* --- Header styles --- */
 
 header {
   padding: 15px 0;
+  text-transform: uppercase;
 }
 
 header .content-wrapper {
@@ -214,6 +223,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 }
 
 footer .content-wrapper {
@@ -263,11 +273,10 @@ footer .social-icons p {
 
 footer .copyright {
   margin: 20px 0;
-}
-
-
-.copyright-text {
-
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* -------- Mobile styles - Homepage -------- */
@@ -288,6 +297,7 @@ aside {
   flex-flow: row wrap;
   width: 100%;
   margin: 30px 20px;
+  background-color: #527158;
 }
 
 .form-description {
@@ -312,6 +322,34 @@ aside {
   justify-content: center;
   flex-wrap: row wrap;
 }
+
+/* --- Form styles --- */
+
+aside .newsletter-form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 
 /* --- FEATURES --- */
 
@@ -356,6 +394,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews .content-wrapper {
@@ -375,11 +414,6 @@ aside {
 
 }
 
-.body-text {
-
-}
-
-
 
 /* -------- Mobile styles - About -------- */
 
@@ -388,6 +422,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .mission .content-wrapper {
@@ -411,6 +446,7 @@ aside {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-section .content-wrapper {
@@ -433,6 +469,7 @@ aside {
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -466,6 +503,8 @@ margin-bottom: 40px;
 .faq-text {
 
 }
+
+
 
 
 /* ==========================================================================
@@ -706,6 +745,7 @@ aside .content-wrapper .newsletter-form {
 }
 
 /* -------- Desktop styles - Feature -------- */
+
 .features h2 {
   width: 70%;
 }
@@ -715,6 +755,12 @@ aside .content-wrapper .newsletter-form {
 }
 
 /* -------- Desktop styles - Reviews -------- */
+
+.reviews {
+    justify-content: flex-start;
+    padding: 0 120px;
+}
+
 .reviews article div {
   width: 40%;
 }
