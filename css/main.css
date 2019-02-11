@@ -97,7 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /* -------- GENERAL STYLES -------- */
+   /* -------- GLOBAL STYLES -------- */
 
    html {
      font-size: 16px;
@@ -148,12 +148,12 @@ textarea {
    }
 
    img {
+	    width: 100%;
+    }
 
-   }
-
-   figure {
-
-   }
+    figure {
+      margin: 0;
+      }
 
    address {
      font-family: 'Open sans', sans-serif;
@@ -193,7 +193,11 @@ header .content-wrapper {
 }
 
 header figure {
-
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -281,12 +285,16 @@ footer .copyright {
 
 /* -------- Mobile styles - Homepage -------- */
 
-
 .hero-area {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  width: 80%;
+  width: 100%;
+  background: url('../img/hero-image.jpg') center no-repeat #333;
+  background-size: cover;
+}
+
+.hero-area .content-wrapper {
   margin: 0 20px;
 }
 
@@ -296,8 +304,12 @@ aside {
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
-  margin: 30px 20px;
   background-color: #527158;
+  height: 300px;
+}
+
+aside .content-wrapper {
+  margin: 30px 20px;
 }
 
 .form-description {
@@ -358,6 +370,8 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   margin: 0;
+  background: url('../img/features-bkg.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -627,6 +641,10 @@ header .content-wrapper {
   justify-content: space-between;
 }
 
+header figure {
+  width: 30%;
+}
+
 header nav {
   width: 20%;
 }
@@ -639,7 +657,16 @@ header nav ul {
   display: none;
 }
 
+/* -------- Tablet styles - Homepage -------- */
+.hero-area {
+  height: 300px;
+}
+
 /* -------- Tablet styles - Aside -------- */
+
+aside {
+  height: 250px;
+}
 
 aside .content-wrapper {
   margin: 50px 0;
@@ -763,12 +790,25 @@ p {
 
 
 /* -------- Desktop styles - Homepage -------- */
-.hero-area h2 {
-  width: 70%;
+header figure {
+  width: 20%;
 }
 
 
+.hero-area h2 {
+  width: 70%;
+}
+.hero-area {
+  width: 100%;
+  height: 500px;
+}
+
 /* -------- Desktop styles - Aside -------- */
+
+aside {
+  height: 250px;
+}
+
 aside .content-wrapper {
   justify-content: space-around;
 }
