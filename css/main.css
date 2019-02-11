@@ -601,6 +601,22 @@ margin-bottom: 40px;
   margin: 100px 0;
 }
 
+h2 {
+  font-size: 3em;
+ }
+
+h3 {
+  font-size: 2.25em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 0.875em;
+}
+
 /* -------- Tablet styles - Header -------- */
 header {
   justify-content: space-around;
@@ -728,9 +744,27 @@ footer .copyright {
   max-width: 960px;
 }
 
+h2 {
+  font-size: 3.7em;
+ }
+
+h3 {
+  font-size: 2.25em;
+}
+
+h4 {
+  font-size: 1.87em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+
+
 /* -------- Desktop styles - Homepage -------- */
 .hero-area h2 {
-  width: 60%;
+  width: 70%;
 }
 
 
