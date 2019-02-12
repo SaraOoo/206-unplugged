@@ -309,14 +309,6 @@ aside .content-wrapper {
   width: 80%;
 }
 
-.newsletter-header {
-
-}
-
-.newsletter-text {
-
-}
-
 .newsletter-form {
   width: 80%;
 }
@@ -388,7 +380,12 @@ input[type=button] {
 }
 
 .fontawesome-icon {
+  text-align: center;
+}
 
+.features i {
+	font-size: 3.75em;
+  margin-bottom: 30px;
 }
 
 .features-item-description {
