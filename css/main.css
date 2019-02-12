@@ -424,13 +424,6 @@ input[type=button] {
   background-color: #527158;
 }
 
-.mission .content-wrapper {
-
-}
-
-.mission-content {
-
-}
 
 .map figure {
   width: 100%;
@@ -773,6 +766,10 @@ footer .copyright {
   width: 40%;
 }
 
+.map figure {
+  padding-bottom: 58.5%;
+}
+
 .contact-section .content-wrapper h3 {
   width: 80%;
 }
@@ -851,6 +848,10 @@ aside .content-wrapper .newsletter-form {
 .contact-section .content-wrapper h3 {
   width: 100%;
   font-size: 3em;
+}
+
+.map figure {
+  padding-bottom: 32.5%;
 }
 
 .contact-section .content-wrapper h4 {
