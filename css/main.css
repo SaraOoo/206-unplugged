@@ -172,7 +172,8 @@ textarea {
 
 /* -------- Base Header – Footer styles -------- */
 
-header, footer {
+header,
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -233,38 +234,20 @@ header nav ul li {
 /* --- Footer styles --- */
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   text-align: center;
 }
 
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 footer p {
   margin: 0;
 }
 
-.footer-content {
-}
-
-footer adress {
-
-}
-
 footer .contact {
   margin-bottom: 50px;
-}
-
-.contact-text {
-
 }
 
 footer .social {
@@ -741,6 +724,15 @@ footer .footer-content {
 
 footer .contact {
   margin-bottom: 0;
+}
+
+footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+footer p {
+  line-height: 1.285em;
 }
 
 footer .copyright {
