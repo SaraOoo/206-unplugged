@@ -196,7 +196,7 @@ header .content-wrapper {
 }
 
 header figure {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,19 +211,23 @@ header figure {
 }
 
 header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
-  font-size: ;
-  font-weight: ;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 /* --- Footer styles --- */
@@ -654,13 +658,16 @@ header nav ul {
   justify-content: space-between;
 }
 
+nav ul li {
+  margin-right: 15px;
+}
+
 .header-divider {
   display: none;
 }
 
 /* -------- Tablet styles - Homepage -------- */
 .hero-area h2 {
-  margin: 0;
   line-height: 1;
 }
 
@@ -728,6 +735,8 @@ footer .content-wrapper {
 footer .footer-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   }
 
 footer .contact {
@@ -803,15 +812,8 @@ p {
 
 
 /* -------- Desktop styles - Homepage -------- */
-header figure {
-  width: 20%;
-}
-
 .hero-area h2 {
   width: 70%;
-}
-.hero-area {
-  width: 100%;
 }
 
 /* -------- Desktop styles - Aside -------- */
@@ -825,9 +827,12 @@ aside .content-wrapper .newsletter-form {
   width: 35%;
 }
 
+.form-description p {
+  font-size: 1.125em;
+}
 /* -------- Desktop styles - Feature -------- */
 
-.features h2 {
+.features h3 {
   width: 70%;
 }
 
@@ -845,20 +850,31 @@ aside .content-wrapper .newsletter-form {
 .mission h2,
 .contact-section .content-wrapper h3 {
   width: 100%;
+  font-size: 3em;
 }
 
 .contact-section .content-wrapper h4 {
   margin-bottom: 45px;
 }
 
+.contact-content h4 {
+  font-size: 1.875em;
+}
+
 
 /* -------- Desktop styles - FAQ-page -------- */
 .faq h1 {
   width: 100%;
+  font-size: 3em;
 }
 
 .faq-content {
   flex-basis: 40%;
+}
+
+.faq h4, .faq p {
+  font-size: 1.125em;
+  line-height: 1;
 }
 
 }
