@@ -238,8 +238,11 @@ footer {
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 100%;
   margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer p {
@@ -248,12 +251,6 @@ footer p {
 
 footer .contact {
   margin-bottom: 50px;
-}
-
-footer .social {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 footer .social-icons {
@@ -266,6 +263,12 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+footer i {
+  font-size: 2em;
+  color: #527158;
+  margin-right: 20px;
 }
 
 footer .copyright {
@@ -446,13 +449,6 @@ input[type=button] {
   background-color: #2a423a;
 }
 
-.contact-section .content-wrapper {
-
-}
-
-.contact-content {
-
-}
 
 .contact-content p {
   margin: 0;
@@ -488,20 +484,6 @@ margin-bottom: 40px;
 .faq-content {
   margin-bottom: 50px;
 }
-
-.faq-items {
-
-}
-
-.faq-header {
-
-}
-
-.faq-text {
-
-}
-
-
 
 
 /* ==========================================================================
@@ -714,6 +696,7 @@ footer .content-wrapper {
 }
 
 footer .footer-content {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -874,6 +857,7 @@ aside .content-wrapper .newsletter-form {
   font-size: 1.125em;
   line-height: 1;
 }
+
 
 }
 
