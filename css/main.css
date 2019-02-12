@@ -106,6 +106,8 @@ textarea {
    body {
      font-family: 'Open sans', sans-serif;
      font-size: 1em;
+     text-align: left;
+     color: #e2e3ed;
    }
 
    ul,
@@ -121,7 +123,6 @@ textarea {
    h2 {
      font-family: 'Poppins', sans-serif;
      font-size: 2.25em;
-     color: #e2e3ed;
      font-weight: 400;
     }
 
@@ -130,6 +131,7 @@ textarea {
      font-family: 'Poppins', sans-serif;
      color: #e2e3ed;
      font-weight: 400;
+     margin: 20px 0;
    }
 
    h3 {
@@ -162,7 +164,8 @@ textarea {
    }
 
    .content-wrapper {
-
+     width: 90%;
+     margin: 50px 0;
    }
 
 
@@ -201,6 +204,7 @@ header figure {
 }
 
 .header-divider {
+  background: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -212,6 +216,8 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  font-size: ;
+  font-weight: ;
 }
 
 header nav ul {
@@ -290,8 +296,9 @@ footer .copyright {
   justify-content: center;
   flex-flow: row wrap;
   width: 100%;
-  background: url('../img/hero-image.jpg') center no-repeat #333;
+  background: url(../img/hero-image.jpg) center no-repeat #333;
   background-size: cover;
+  min-height: 500px;
 }
 
 .hero-area .content-wrapper {
@@ -305,7 +312,6 @@ aside {
   flex-flow: row wrap;
   width: 100%;
   background-color: #527158;
-  height: 300px;
 }
 
 aside .content-wrapper {
@@ -411,23 +417,15 @@ input[type=button] {
   background-color: #2a423a;
 }
 
-.reviews .content-wrapper {
-  width: 85%;
-}
-
 .reviews h3 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h4 {
   width: 55%;
   margin: 20px 0;
 }
-
-.review-content {
-
-}
-
 
 /* -------- Mobile styles - About -------- */
 
@@ -621,14 +619,17 @@ h2 {
 
 h3 {
   font-size: 2.25em;
+  line-height: 1.33;
 }
 
 h4 {
   font-size: 1.5em;
+  line-height: 1.25em;
 }
 
 p {
   font-size: 0.875em;
+  line-height: 1.42em;
 }
 
 /* -------- Tablet styles - Header -------- */
@@ -658,21 +659,18 @@ header nav ul {
 }
 
 /* -------- Tablet styles - Homepage -------- */
-.hero-area {
-  height: 300px;
+.hero-area h2 {
+  margin: 0;
+  line-height: 1;
 }
 
 /* -------- Tablet styles - Aside -------- */
 
-aside {
-  height: 250px;
-}
-
 aside .content-wrapper {
   margin: 50px 0;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 aside .content-wrapper .form-description,
@@ -682,6 +680,10 @@ aside .content-wrapper .newsletter-form {
     }
 
 /* -------- Tablet styles - Features -------- */
+
+.features h2 {
+  margin: 0 20px 20px 0;
+}
 
 .features article {
   display: flex;
@@ -697,13 +699,23 @@ aside .content-wrapper .newsletter-form {
 
 /* -------- Tablet styles - Reviews -------- */
 
-.reviews .content-wrapper {
+.reviews article {
   display: flex;
   justify-content: space-between;
 }
 
-.reviews article {
-  width: 48%;
+.reviews h3 {
+  width: 90%;
+}
+
+.reviews article div,
+.reviews article figure {
+  width: 49%;
+}
+
+.reviews h4 {
+  width: 75%;
+  margin: 0;
 }
 
 /* -------- Tablet styles - Footer -------- */
@@ -785,6 +797,7 @@ h4 {
 
 p {
   font-size: 1.1em;
+  line-height: 1.5em;
 }
 
 
@@ -794,20 +807,14 @@ header figure {
   width: 20%;
 }
 
-
 .hero-area h2 {
   width: 70%;
 }
 .hero-area {
   width: 100%;
-  height: 500px;
 }
 
 /* -------- Desktop styles - Aside -------- */
-
-aside {
-  height: 250px;
-}
 
 aside .content-wrapper {
   justify-content: space-around;
@@ -815,7 +822,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .newsletter-form {
-  width: 30%;
+  width: 35%;
 }
 
 /* -------- Desktop styles - Feature -------- */
@@ -830,15 +837,9 @@ aside .content-wrapper .newsletter-form {
 
 /* -------- Desktop styles - Reviews -------- */
 
-.reviews {
-    justify-content: flex-start;
-    padding: 0 120px;
-}
-
 .reviews article div {
-  width: 40%;
+  width: 42%;
 }
-
 
 /* -------- Desktop styles - ABOUT-page -------- */
 .mission h2,
