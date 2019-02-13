@@ -144,7 +144,7 @@ textarea {
 
    p {
      font-size: 0.8em;
-     line-height: 1.1em;
+     line-height: 1.3em;
      color: #e1e2ea;
      text-align: left;
    }
@@ -167,8 +167,6 @@ textarea {
      width: 90%;
      margin: 50px 0;
    }
-
-
 
 /* -------- Base Header – Footer styles -------- */
 
@@ -297,6 +295,9 @@ footer .copyright {
   margin: 0 20px;
 }
 
+
+/* --- Aside --- */
+
 aside {
   display: flex;
   justify-content: center;
@@ -309,6 +310,7 @@ aside {
 aside .content-wrapper {
   margin: 30px 20px;
 }
+
 
 .form-description {
   width: 100%;
@@ -678,6 +680,10 @@ aside .content-wrapper .newsletter-form {
 }
 
 /* -------- Tablet styles - Reviews -------- */
+
+.reviews .content-wrapper {
+  margin: 30px 0;
+}
 
 .reviews article {
   display: flex;
